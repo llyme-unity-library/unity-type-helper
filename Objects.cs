@@ -236,7 +236,7 @@ namespace TypeHelper
 			(this object @object) =>
 			AllProperties(
 				@object,
-				TypeHelper.Generic.GENERIC_MEMBER_FLAG,
+				Generic.GENERIC_MEMBER_FLAG,
 				GenericMemberPredicate
 			);
 
